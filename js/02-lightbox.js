@@ -18,6 +18,5 @@ function createGalleryItemsMarkup (galleryItems) {
 const galleryContainer = document.querySelector('.gallery')
 const gallaryMarkup = createGalleryItemsMarkup(galleryItems)
 galleryContainer.insertAdjacentHTML('beforeend', gallaryMarkup)
-console.log(galleryItems);
 
 const createLightBox = new SimpleLightbox('.gallery a', {captionsData: "alt", captionDelay: 250});
